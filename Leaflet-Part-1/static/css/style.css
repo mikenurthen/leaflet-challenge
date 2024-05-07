@@ -9,13 +9,14 @@ html {
   height: 100%;
 }
 
+/* Format legend box with specified settings */
 .legend {
   padding: 5px;
   color: black;
   background-color: white;
   border-radius: 10px;
 }
-
+/* Format for legend items */
 .legend i {
   float: left;
   width: 20px;
@@ -24,13 +25,7 @@ html {
   opacity: 1;
 }
 
-.leaflet-bottom.leaflet-left {
-  width: 90%
-}
-
-.leaflet-control-container .leaflet-timeline-controls {
-  width: 100%;
-  box-sizing: border-box;
-  margin: auto;
+.legend p {
+  margin-top: 0;
   margin-bottom: 20px;
 }
